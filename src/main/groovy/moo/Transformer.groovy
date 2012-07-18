@@ -1,6 +1,7 @@
 package moo
 
 import org.codehaus.groovy.ast.ASTNode
+import org.codehaus.groovy.ast.ClassHelper
 import org.codehaus.groovy.ast.ClassNode
 import org.codehaus.groovy.ast.MethodNode
 import org.codehaus.groovy.ast.expr.ArgumentListExpression
@@ -16,17 +17,18 @@ import org.codehaus.groovy.transform.GroovyASTTransformation
 
 @GroovyASTTransformation(phase=CompilePhase.SEMANTIC_ANALYSIS)
 public class Transformer implements ASTTransformation {
-
+    private static final ClassNode TRANSFORM_ANNOTATION_NODE = ClassHelper.make(TransformerAnn)
     @Override
     void visit(ASTNode[] astNodes, SourceUnit sourceUnit) {
 
-        def methods = sourceUnit.getAST()?.getMethods();
+        def methodNode = astNodes[1]
+        def methods = methodNode.declaringClass.methods
 
         methods.findAll {MethodNode node ->
-            node.getAnnotations(new ClassNode(TransformerAnn))
+            node.getAnnotations(TRANSFORM_ANNOTATION_NODE)
         }.each {  MethodNode node ->
-            Statement startMessage = createPrintlnAst("Starting $node.name")
-            List existingStatements = method.getCode().getStatements()
+            def startMessage = createPrintlnAst("Starting $node.name\n")
+            def existingStatements = node.code.statements
             existingStatements.add(0, startMessage)
         }
 

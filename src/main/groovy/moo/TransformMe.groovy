@@ -4,7 +4,7 @@ package moo
 class TransformMe {
 
 
-    @moo.TransformerAnn
+    @TransformerAnn
     void wrapMeBefore(){
         println "Doing Something nice for the weekend ?"
     }

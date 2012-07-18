@@ -9,6 +9,6 @@ import org.codehaus.groovy.transform.GroovyASTTransformationClass
 
 @Retention(RetentionPolicy.SOURCE)
 @Target([ElementType.METHOD])
-@GroovyASTTransformationClass(["moo.Transformer"])
+@GroovyASTTransformationClass(classes=[Transformer.class])
 @interface TransformerAnn {
 }

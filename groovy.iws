@@ -22,7 +22,13 @@
     <option name="FILTER_BY_CURRENT_PROJECT" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="62f4f54a-496a-4780-9b25-e6642ce8435a" name="Default" comment="" />
+    <list default="true" id="62f4f54a-496a-4780-9b25-e6642ce8435a" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/groovy.ipr" afterPath="$PROJECT_DIR$/groovy.ipr" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/groovy.iws" afterPath="$PROJECT_DIR$/groovy.iws" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/groovy/moo/TransformMe.groovy" afterPath="$PROJECT_DIR$/src/main/groovy/moo/TransformMe.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/groovy/moo/Transformer.groovy" afterPath="$PROJECT_DIR$/src/main/groovy/moo/Transformer.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/groovy/moo/TransformerAnn.groovy" afterPath="$PROJECT_DIR$/src/main/groovy/moo/TransformerAnn.groovy" />
+    </list>
     <ignored path="groovy.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -79,22 +85,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="TransformMe.groovy" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="TransformMe.groovy" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/groovy/moo/TransformMe.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="6" selection-start="42" selection-end="42" vertical-scroll-proportion="0.0">
+            <state line="3" column="25" selection-start="33" selection-end="33" vertical-scroll-proportion="0.12313433">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TransformerAnn.groovy" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="TransformerAnn.groovy" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/groovy/moo/TransformerAnn.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="17" selection-start="384" selection-end="384" vertical-scroll-proportion="0.47166923">
-              <folding>
-                <element signature="e#13#50#0" expanded="true" />
-              </folding>
+            <state line="11" column="56" selection-start="359" selection-end="359" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -102,7 +106,7 @@
       <file leaf-file-name="Transformer.groovy" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/groovy/moo/Transformer.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="7" selection-start="744" selection-end="744" vertical-scroll-proportion="0.0">
+            <state line="29" column="70" selection-start="1311" selection-end="1311" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="e#13#51#0" expanded="true" />
               </folding>
@@ -113,7 +117,7 @@
       <file leaf-file-name="sample_ast.groovy" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/groovy/sample_ast.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="0" selection-start="58" selection-end="58" vertical-scroll-proportion="0.0">
+            <state line="2" column="32" selection-start="56" selection-end="56" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -128,11 +132,11 @@
   </component>
   <component name="Git.Settings">
     <option name="LINE_SEPARATORS_CONVERSION" value="ASK" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/test/groovy/TestWithFirstTestMixinTest.groovy" />
         <option value="$PROJECT_DIR$/src/main/groovy/mixins.groovy" />
         <option value="$PROJECT_DIR$/src/main/groovy/Ranges.java" />
         <option value="$PROJECT_DIR$/src/main/groovy/Ranges.groovy" />
@@ -146,8 +150,9 @@
         <option value="$PROJECT_DIR$/src/main/groovy/TransformMe.groovy" />
         <option value="$PROJECT_DIR$/src/main/groovy/Transformer.groovy" />
         <option value="$PROJECT_DIR$/src/main/groovy/sample_ast.groovy" />
-        <option value="$PROJECT_DIR$/src/main/groovy/moo/TransformMe.groovy" />
         <option value="$PROJECT_DIR$/src/main/groovy/moo/TransformerAnn.groovy" />
+        <option value="$PROJECT_DIR$/src/main/groovy/moo/TransformMe.groovy" />
+        <option value="$PROJECT_DIR$/src/main/groovy/moo/Transformer.groovy" />
       </list>
     </option>
   </component>
@@ -160,7 +165,7 @@
     <option name="width" value="1680" />
     <option name="height" value="1024" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -188,12 +193,16 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope">
-        <subPane subId="Project Files">
+      <pane id="PackagesPane">
+        <subPane>
           <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
+            <PATH_ELEMENT>
+              <option name="myItemId" value="groovy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="groovy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -284,16 +293,12 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane">
-        <subPane>
+      <pane id="Scope">
+        <subPane subId="Project Files">
           <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="groovy" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="groovy" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -648,8 +653,8 @@
       <window_info id="Regex Tester" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="CSS-X-Fire" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26666668" sideWeight="0.73275864" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2672414" sideWeight="0.49754903" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26666668" sideWeight="0.60668105" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39331895" sideWeight="0.49754903" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Atlassian " active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
@@ -793,68 +798,54 @@
     </entry>
     <entry file="jar:///System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar!/java/lang/annotation/Retention.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="40" selection-start="397" selection-end="412" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="10" column="40" selection-start="397" selection-end="412" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="jar:///System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar!/java/lang/annotation/Target.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="28" selection-start="397" selection-end="397" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="10" column="28" selection-start="397" selection-end="397" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="jar:///System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar!/java/lang/annotation/ElementType.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="86" selection-start="257" selection-end="263" vertical-scroll-proportion="0.123873875">
-          <folding />
-        </state>
+        <state line="6" column="86" selection-start="257" selection-end="263" vertical-scroll-proportion="0.123873875" />
       </provider>
     </entry>
     <entry file="jar:///usr/local/Cellar/groovy/1.8.6/libexec/lib/groovy-1.8.6.jar!/org/codehaus/groovy/transform/GroovyASTTransformationClass.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="18" selection-start="331" selection-end="331" vertical-scroll-proportion="0.21019109">
-          <folding />
-        </state>
+        <state line="7" column="18" selection-start="331" selection-end="331" vertical-scroll-proportion="0.21019109" />
       </provider>
     </entry>
     <entry file="jar:///usr/local/Cellar/groovy/1.8.6/libexec/lib/groovy-1.8.6.jar!/org/codehaus/groovy/transform/GroovyASTTransformation.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="44" selection-start="383" selection-end="395" vertical-scroll-proportion="0.28025478">
-          <folding />
-        </state>
+        <state line="9" column="44" selection-start="383" selection-end="395" vertical-scroll-proportion="0.28025478" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/groovy/sample_ast.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="58" selection-end="58" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="2" column="32" selection-start="56" selection-end="56" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/groovy/moo/Transformer.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="7" selection-start="744" selection-end="744" vertical-scroll-proportion="0.0">
+        <state line="29" column="70" selection-start="1311" selection-end="1311" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="e#13#51#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/groovy/moo/TransformMe.groovy">
+    <entry file="file://$PROJECT_DIR$/src/main/groovy/moo/TransformerAnn.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="6" selection-start="42" selection-end="42" vertical-scroll-proportion="0.0">
+        <state line="11" column="56" selection-start="359" selection-end="359" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/groovy/moo/TransformerAnn.groovy">
+    <entry file="file://$PROJECT_DIR$/src/main/groovy/moo/TransformMe.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="17" selection-start="384" selection-end="384" vertical-scroll-proportion="0.47166923">
-          <folding>
-            <element signature="e#13#50#0" expanded="true" />
-          </folding>
+        <state line="3" column="25" selection-start="33" selection-end="33" vertical-scroll-proportion="0.12313433">
+          <folding />
         </state>
       </provider>
     </entry>
